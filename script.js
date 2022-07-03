@@ -1,4 +1,5 @@
 const boxes = document.querySelectorAll('.box')
+const bg = document.querySelectorAll('.box')
 
 window.addEventListener('scroll', checkBoxes)
 
@@ -17,4 +18,3 @@ function checkBoxes(scroll){
     }
   })
 }
-
